@@ -1,0 +1,169 @@
+/**********************************************************************************************************
+user coment box
+************************************************************************************************************/
+.comment_box
+{ 
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 4%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+.comment_box .com_img
+{
+    position: absolute;
+    border-radius: 10px;
+    width:79%; 
+    height:500px;
+}
+.comment_box #head_commt
+{
+    position: relative;
+    color: rgb(18, 17, 116);
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.comment_box #note
+{
+    position: relative;
+    color: rgb(18, 17, 116);
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+#record2
+{
+    position: relative;
+    width: 90%;
+    height: 200px;
+    margin-top: 1px;
+    margin-left: 30px;
+    font-size: 1.7rem;
+    color: rgb(21, 18, 99);
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    background-color: transparent;
+}
+#record1
+{
+    position: relative;
+    width: 40%;
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: red;
+    /* border-radius: 10px; */
+    border: 1.5px solid black;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+    
+}
+input,textarea
+{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+::placeholder
+{
+    color: rgb(18, 17, 116);
+    opacity: 1;
+}
+#comm_btn
+{
+    position: relative;
+    float: right;
+    width: 20%;
+    height:40px;
+    margin-top: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    color: mediumturquoise;
+    background-color: black;
+    font-size: 18px;
+}
+#comm_btn:hover
+{
+  background-color: mediumturquoise;
+  color: black;
+}
+
+/**********************************************************************************************************
+user coment display box
+************************************************************************************************************/
+
+
+.user_comment
+{
+    width: 70%;
+    height: 210px;
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 4px 4px gray;
+    background-color: white;
+}
+.us_img
+{
+    position: absolute;
+    border-radius: 10px;
+    width:70%;
+    height:209px;
+}
+.user_comment .who_comment
+{
+    position: absolute;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(126, 201, 231,0.3);
+    /* opacity: 0.3; */
+    border: 1px solid black;
+    width: 70%;
+}
+.who_comment h1
+{
+    /* position: relative; */
+    margin-top: 5px;
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: transparent;
+    width: 100%;
+    opacity: 1;
+}
+.who_comment h1 span
+{
+    color: rgb(11, 11, 68);
+}
+.who_comment .fa
+{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+#reply
+{
+    position: absolute;
+    font-size: 1.4rem;
+    margin-top: 80px;
+    margin-left: 45px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Zilla Slab', serif;
+    color: rgb(0,0,0,0.8);
+    letter-spacing: 1px;
+    
+}
+
